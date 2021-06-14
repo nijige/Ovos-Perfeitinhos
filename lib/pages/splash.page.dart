@@ -1,6 +1,7 @@
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
-import 'package:ovinhos_perfeitos/pages/home.page.dart';
+
+import 'home.page.dart';
 
 class SplashPage extends StatelessWidget {
   Future delay(context) async {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ovinhos_perfeitos/widgets/button.widget.dart';
+import 'package:ovinhos_perfeitos/widgets/type.buttons.widget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -11,11 +11,7 @@ class HomePage extends StatelessWidget {
             SizedBox(
               height: 60,
             ),
-            Button(label: "Teste", selected: true, callback: () {}),
-            SizedBox(
-              height: 60,
-            ),
-            Button(label: "Teste", selected: false, callback: () {})
+            TypeButton(),
           ],
         ),
       ),
