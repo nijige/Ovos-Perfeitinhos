@@ -19,7 +19,7 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // delay(context);
+    delay(context);
     return Scaffold(
         body: Column(
       children: <Widget>[
@@ -38,7 +38,6 @@ class SplashPage extends StatelessWidget {
           ),
         ),
         Text(
-          
           "Ovos Perfeitos",
           style: TextStyle(
             fontSize: 34,
